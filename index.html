@@ -32,6 +32,12 @@
     <!-- Import the component -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <model-viewer src="unstableCoffeeMug_glb.glb" alt="World's Best Mug"></model-viewer>
+    <example-snippet inert-script stamp-to="demo-container" highlight-as="html">
+      <template>
+    <model-viewer src="unstableCoffeeMug_glb.glb"
+      alt="World's Best Mug"
+      ios-src="unstableCoffeeMug_usdz.usdz"></model-viewer>
+    </example-snippet>
+  </template>
   </body>
 </html>
