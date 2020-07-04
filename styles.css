@@ -36,6 +36,11 @@
     /*border: 5px solid black;*/
 }
 
+.main-page-child model-viewer{
+    align-self: center;
+    border: 5px solid black;
+}
+
 .main-page-child img{
     width: 300px;
     align-self: center;
